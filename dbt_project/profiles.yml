@@ -1,0 +1,9 @@
+snowflake_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 4
+      # NOTE: account, user, password, role, warehouse, database, schema
+      # are intentionally omitted. Snowflake injects these from your
+      # session when using EXECUTE DBT PROJECT.
