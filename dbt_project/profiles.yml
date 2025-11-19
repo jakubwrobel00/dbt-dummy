@@ -7,10 +7,10 @@ snowflake_dbt_project:
       threads: 4
       # Placeholder values are required for dbt validation but are
       # ignored by Snowflake, which uses session context instead.
-      account: placeholder
-      user: placeholder
-      password: placeholder
-      role: placeholder
-      warehouse: placeholder
-      database: placeholder
-      schema: placeholder
+      # account: placeholder
+      # user: placeholder
+      # password: placeholder
+      # role: placeholder
+      # warehouse: placeholder
+      # database: placeholder
+      # schema: placeholder
