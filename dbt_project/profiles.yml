@@ -13,4 +13,4 @@ snowflake_dbt_project:
       # role: placeholder
       # warehouse: placeholder
       database: FEATURE_TEST_DB
-      # schema: placeholder
+      schema: FEATURE_TEST
