@@ -1,9 +1,16 @@
+# `dbt_project/profiles.yml`
 snowflake_dbt_project:
   target: dev
   outputs:
     dev:
       type: snowflake
       threads: 4
-      # NOTE: account, user, password, role, warehouse, database, schema
-      # are intentionally omitted. Snowflake injects these from your
-      # session when using EXECUTE DBT PROJECT.
+      # Placeholder values are required for dbt validation but are
+      # ignored by Snowflake, which uses session context instead.
+      account: placeholder
+      user: placeholder
+      password: placeholder
+      role: placeholder
+      warehouse: placeholder
+      database: placeholder
+      schema: placeholder
