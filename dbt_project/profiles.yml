@@ -10,7 +10,7 @@ snowflake_dbt_project:
       # account: placeholder
       # user: placeholder
       # password: placeholder
-      role: placeholder
+      role: ACCOUNTADMIN
       # warehouse: placeholder
       database: FEATURE_TEST_DB
       schema: FEATURE_TEST
